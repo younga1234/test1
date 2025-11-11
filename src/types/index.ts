@@ -95,6 +95,7 @@ export interface MCPToolCallResponse<T = any> {
   metadata?: {
     tokensUsed?: number;
     latency?: number;
+    attempt?: number;
   };
 }
 
